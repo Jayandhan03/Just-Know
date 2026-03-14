@@ -37,4 +37,3 @@ def generate_audio_stream(script: str, voice_id: str | None = None, model_id: st
     except Exception as e:
         logger.error("Google TTS error: %s", e)
         raise
-
